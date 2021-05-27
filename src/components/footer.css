@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footerpage {
+    width: 100%;
+    height: auto;
+    position: relative;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.footer-container {
+    max-width: 1240px;
+    height: 80%;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.footer-text {
+    width: auto;
+    height: 80%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-social img{
+    margin-right: 10px;
+}
+
+.footer-title {
+    margin: 0 auto;
+}
+
+.footer-title p{
+    width: auto;
+    height: auto;
+    position: relative;
+    align-items: center;
+    font-size: 0.75rem;
+    line-height: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #6184D1;
+    margin-bottom: 0;
+}
+
+.footer-title a {
+    color: #6184D1;
+}
+
+.footer-title a:hover {
+    font-weight: bold;
+}
+
+.footer-logo {
+    width: auto;
+    position: relative;
+    display: flex;
+    align-items: right;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: auto;
+}
+
+.footer-textmb {
+    display: none;
+}
+
+.footer-titlemb {
+    display: none;
+}
+
+.footer-socialmb {
+    display: none;
+}
+
+.footer-logomb {
+    display: none;
+}
+
+.fa-linkedin-in, 
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    color: #FE016E;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2.3px solid #FE016E;
+    border-radius: 45px;
+    margin: 0 5px 0 5px;
+}
+
+.fa-linkedin-in::before, 
+.fa-instagram::before,
+.fa-twitter::before,
+.fa-youtube::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28%;
+}
+
+.fa-facebook-f::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28%;
+}
+
+.fa-facebook-f {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    align-items: center;
+    color: #FE016E;
+    font-size: 20px;
+    font-weight: normal;
+    border: 2.3px solid #FE016E;
+    border-radius: 45px;
+    margin: 0 5px 0 5px;
+}
+
+.fa-linkedin-in:hover, 
+.fa-instagram:hover,
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-youtube:hover {
+    color: #FFFFFF;
+    background-color: #FE016E;
+    transition: ease-out 0.5s;
+}
+
+@media (max-width: 1024px){
+    .fa-linkedin-in, 
+    .fa-instagram,
+    .fa-twitter,
+    .fa-youtube {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        margin: 0 3px 0 3px;
+    }
+
+    .fa-facebook-f {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        margin: 0 3px 0 3px;
+    }
+
+    .fa-linkedin-in::before, 
+    .fa-instagram::before,
+    .fa-twitter::before,
+    .fa-youtube::before {
+        margin-top: 21%;
+    }
+
+    .fa-facebook-f::before {
+        margin-top: 21%;
+    }
+}
+
+@media (max-width: 768px){
+    .footer-text {
+        display: none;
+    }
+
+    .footer-textmb {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: auto;
+        height: 80%;
+        position: relative;
+        align-items: center;
+    }
+
+    .footer-titlemb {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .footer-titlemb p{
+        width: auto;
+        height: auto;
+        position: relative;
+        align-items: center;
+        font-size: 0.8rem;
+        line-height: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        color: #6184D1;
+        margin-bottom: 0;
+    }
+
+    .footer-titlemb a {
+        color: #6184D1;
+    }
+
+    .footer-titlemb a:hover {
+        font-weight: bold;
+    }
+    
+    .footer-socialmb {
+        display: flex;
+    }
+
+    .footer-socialmb img{
+        margin-right: 10px;
+    }
+    
+    .footer-logomb {
+        width: auto;
+        position: relative;
+        display: flex;
+        align-items: right;
+        margin: 0 auto;
+    }
+    
+}

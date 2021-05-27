@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.casespage {
+    width: 100%;
+    height: 1060px;
+    position: relative;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.cases-container {
+    max-width: 1240px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    padding: 150px 0 60px 0;
+}
+
+.cases-text {
+    position: relative;
+    max-width: 1240px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cases-title img {
+    width: 100%;
+}
+
+.cases-title h1{
+    position: relative;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #FE016E;
+    text-decoration: underline;
+}
+
+.cases-images {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.cases-images img {
+    width: 100%;
+}
+
+.cases-titlemb {
+    display: none;
+}
+
+.casessbtnmb {
+    display: none;
+}
+
+@media (max-width: 768px){
+    .casespage {
+        width: 100%;
+        height: auto;
+    }
+
+    .cases-title {
+        display: none;
+    }
+
+    .cases-titlemb {
+        width: 100%;
+        display: flex;
+    }
+
+    .cases-titlemb img{
+        width: 100%;
+        height: auto;
+    }
+
+    .cases-container {
+        padding: 40px 0 40px 0;
+    }
+
+    .cases-images {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #textura2 {
+        display: none;
+    }
+
+    .casessbtnmb {
+        width: 90%;
+        position: relative;
+        height: 5rem;
+        display: flex;
+        border: 2px solid #FE016E;
+        align-items: center;
+        margin: 20px auto;
+    }
+    
+    .casessbtnmb a {
+        width: auto;
+        height: auto;
+        position: relative;
+        font-size: 1.2rem;
+        line-height: 24px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        text-transform: uppercase;
+        color: #2F54A1;
+        margin: 0 auto;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
